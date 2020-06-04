@@ -1,41 +1,17 @@
-/*
-    Write your CSS in this file.
-    Reference the powerpoints, google, or past CSS files for structure
-    Examples:
+/**********
+    SPECIFIC STYLES:
+    tag-name
+    .class-name
+    #id-name
+**********/
 
-    - Apply CSS to a specific HTML tag:
-    tag-name {
-        selector: value;
-    }
 
-	- A class:
-    .class-name {
-        selector: value;
-    }
-
-    - A ID:
-    #id-name {
-        selector: value;
-    }
-    
-    look on W3 schools website for any specific questions on what CSS selectors and styles to use/what the correct syntax is.
-*/
-@media screen and (max-width: 767) {
-    #name { 
-        border-bottom: none !important; 
-        border-right: lightgray 2px solid !important;
-    }
-    #icons {
-        border-top: none !important;
-        border-left: lightgray 2px solid !important;
-    }
-  }
-  
 body {
     background-color: #263638;
 }
+
 .header {
-    background-color: #4B9CD3;
+    background-color: rgb(108, 169, 209);
     border-top: lightgray 2px solid;
     border-bottom: lightgray 2px solid;
     height: 10vh;
@@ -59,7 +35,7 @@ body {
     font-size: 150%;
     border-right: lightgray 2px solid;
 }
-
+  
 .text-middle{
     line-height: 8.5vh;
     text-align: center;
@@ -71,8 +47,8 @@ body {
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
-.banner {
-    background-color: #c7dcff;
+.about {
+    background-color: rgb(164, 204, 231);;
     border: lightgray 1px solid;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -114,3 +90,20 @@ body {
     margin-bottom: 1vh;
 }
 
+/**********
+MEDIA QUERIES:
+**********/
+
+@media screen and (max-width: 767px) {
+    #name  {
+      border-bottom: none !important;
+      border-right: lightgray 2px solid !important;
+    }
+    .big-font {
+        font-size: 200% !important;
+    }
+    #icons {
+        border-top: none !important;
+        border-left: lightgray 2px solid !important;
+    }
+}
