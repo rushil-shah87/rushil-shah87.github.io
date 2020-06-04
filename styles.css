@@ -54,6 +54,9 @@ h2 {
     font-size: 150%;
     border-right: lightgray 2px solid;
 }
+p li {
+    font-family: 'Arvo', serif;
+}
 
 /* about */
 .about {
@@ -94,8 +97,8 @@ h2 {
     font-weight: bold;
 }
 li:hover > .hidden {
-    display:block;
-    font-weight:normal;
+    display: block;
+    font-weight: normal;
 }
 .description {
     font-style: italic;
