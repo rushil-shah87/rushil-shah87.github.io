@@ -20,16 +20,29 @@
     
     look on W3 schools website for any specific questions on what CSS selectors and styles to use/what the correct syntax is.
 */
+body {
+    background-color: darkgrey;
+}
 .header {
     background-color: lightblue;
+    border-top: black 2px solid;
     border-bottom: black 2px solid;
     height: 10vh;
 }
+
+.h-left {
+    border-left: black 2px solid;
+}
+.h-right {
+    border-right: black 2px solid;
+}
+
 .big-font {
     font-size: 400%;
 }
 #icons a + a {
     padding-left: 2vw;
+    text-align: right;
  } 
 #name {
     font-family: 'Inconsolata', monospace;
@@ -57,6 +70,8 @@
     background-color: lightcoral;
     border-left: black 2px solid; 
     border-right: black 2px solid;
+    border-bottom: black 2px solid; 
+    border-top: black 2px solid;
     height: 13vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -64,6 +79,8 @@
 .story1 {
     background-color: lightcyan;
     border-left: black 2px solid; 
+    border-bottom: black 2px solid; 
+    border-top: black 2px solid;
     height: 48vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -72,6 +89,8 @@
 .sidebar1 {
     background-color: lightgray;
     border-right: black 2px solid;
+    border-bottom: black 2px solid; 
+    border-top: black 2px solid;
     height: 48vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -79,6 +98,8 @@
 .story2 {
     background-color: lightgoldenrodyellow;
     border-left: black 2px solid; 
+    border-bottom: black 2px solid; 
+    border-top: black 2px solid;
     height: 23vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -87,6 +108,8 @@
 .sidebar2 {
     background-color: lightgreen;
     border-right: black 2px solid;
+    border-bottom: black 2px solid; 
+    border-top: black 2px solid;
     height: 23vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
