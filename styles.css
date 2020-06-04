@@ -20,7 +20,6 @@
     
     look on W3 schools website for any specific questions on what CSS selectors and styles to use/what the correct syntax is.
 */
-
 @media screen and (max-width: 767) {
     #name { 
         border-bottom: none !important; 
@@ -31,7 +30,7 @@
         border-left: lightgray 2px solid !important;
     }
   }
-
+  
 body {
     background-color: #263638;
 }
