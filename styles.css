@@ -28,8 +28,8 @@
 .big-font {
     font-size: 400%;
 }
-div i + i {
-    padding-left: 1vw;
+#icons a + a {
+    padding-left: 2vw;
  } 
 #name {
     font-family: 'Inconsolata', monospace;
