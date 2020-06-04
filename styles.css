@@ -25,6 +25,13 @@ body {
 .light-border {
     border: lightgray 2px solid;
 }
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font: weight 500;
+}
+.hidden {
+    display:none;
+}
 /* header */
 .header {
     background-color: rgb(108, 169, 209);
@@ -55,29 +62,41 @@ body {
     margin-bottom: 1vh;
     padding-top: 2vh;
 }
-.about h2 {
-    font-family: 'Inconsolata', monospace;
-    font: weight 500;
+.about p {
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
-/* contact */
-
-.story1 {
+/* experience, leadership */
+#experience {
     background-color: lightcyan;
-    border-left: lightgray 1px solid;
-    border-bottom: lightgray 1px solid; 
-    border-top: lightgray 1px solid;
+    border-left: lightgray 2px solid;
+    border-bottom: lightgray 2px solid; 
+    border-top: lightgray 2px solid;
     margin-top: 1vh;
     margin-bottom: 1vh;
+}
+#experience ul {
+    padding-left: 6vw;
+}
 
-}
-.sidebar1 {
+#leadership {
     background-color: lightsteelblue;
-    border-right: lightgray 1px solid;
-    border-bottom: lightgray 1px solid;
-    border-top: lightgray 1px solid;
+    border-right: lightgray 2px solid;
+    border-bottom: lightgray 2px solid;
+    border-top: lightgray 2px solid;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
+#leadership ul {
+    padding-left: 6vw;
+}
+a:hover + div {
+    display:block;
+}
+
+/* footer */
+
+
 .story2 {
     background-color: lightgoldenrodyellow;
     border-left: black 2px solid; 
