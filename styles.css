@@ -90,8 +90,20 @@ h2 {
 #leadership ul {
     padding-left: 6vw;
 }
-a:hover + div {
+.job:hover {
+    font-weight: bold;
+}
+li:hover > .hidden {
     display:block;
+    font-weight:normal;
+}
+.description {
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.sublist {
+    padding: 0px;
+    margin-top: 0px;
 }
 
 /* footer */
