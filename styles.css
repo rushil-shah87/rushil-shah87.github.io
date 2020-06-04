@@ -20,11 +20,17 @@
     
     look on W3 schools website for any specific questions on what CSS selectors and styles to use/what the correct syntax is.
 */
+
+@media screen and (max-width: 1024px) {
+    #h-left #h-mid #h-right {
+        display: none !important;
+    }
+}
 body {
     background-color: #263638;
 }
 .header {
-    background-color: lightblue;
+    background-color: #4B9CD3;
     border-top: lightgray 1px solid;
     border-bottom: lightgray 1px solid;
     height: 10vh;
@@ -67,9 +73,8 @@ body {
     margin-bottom: 1vh;
 }
 .banner {
-    background-color: lightcoral;
+    background-color: #c7dcff;
     border: lightgray 1px solid;
-    height: 13vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -78,7 +83,6 @@ body {
     border-left: lightgray 1px solid;
     border-bottom: lightgray 1px solid; 
     border-top: lightgray 1px solid;
-    height: 48vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 
@@ -88,7 +92,6 @@ body {
     border-right: lightgray 1px solid;
     border-bottom: lightgray 1px solid;
     border-top: lightgray 1px solid;
-    height: 48vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
