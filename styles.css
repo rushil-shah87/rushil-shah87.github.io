@@ -5,20 +5,32 @@
     #id-name
 **********/
 
-
+/* general styles */
+.standard {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
 body {
     background-color: #263638;
 }
-
+.big-font {
+    font-size: 400%;
+}
+.text-middle{
+    line-height: 8.5vh;
+    text-align: center;
+}
+.light-border {
+    border: lightgray 2px solid;
+}
+/* header */
 .header {
     background-color: rgb(108, 169, 209);
     border-top: lightgray 2px solid;
     border-bottom: lightgray 2px solid;
     height: 10vh;
-}
-
-.big-font {
-    font-size: 400%;
 }
 #icons a + a {
     padding-left: 2vw;
@@ -26,33 +38,29 @@ body {
  } 
 #name {
     font-family: 'Inconsolata', monospace;
+    font: weight 700;
     white-space: nowrap;
     display: inline-block;
     border-left: lightgray 2px solid;
 }
-
 #icons {
     font-size: 150%;
     border-right: lightgray 2px solid;
 }
-  
-.text-middle{
-    line-height: 8.5vh;
-    text-align: center;
-}
 
-.standard {
-    width: 90vw;
-    margin-left: 5vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
+/* about */
 .about {
     background-color: rgb(164, 204, 231);;
-    border: lightgray 1px solid;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    padding-top: 2vh;
 }
+.about h2 {
+    font-family: 'Inconsolata', monospace;
+    font: weight 500;
+}
+/* contact */
+
 .story1 {
     background-color: lightcyan;
     border-left: lightgray 1px solid;
@@ -94,17 +102,18 @@ body {
 MEDIA QUERIES:
 **********/
 
+/* for mobile */
 @media screen and (max-width: 767px) {
     #name  {
       border-bottom: none;
       border-right: lightgray 2px solid;
     }
     .big-font {
-        font-size: 200%;
+        font-size: 300%;
     }
     #icons {
         border-top: none;
         border-left: lightgray 2px solid;
-        font-size: 100%;
+        font-size: 125%;
     }
 }
