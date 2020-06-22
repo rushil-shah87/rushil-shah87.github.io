@@ -136,18 +136,20 @@ li:hover > .hidden {
 MEDIA QUERIES:
 **********/
 
-/* for mobile */
+/* for tablet */
 @media screen and (max-width: 767px) {
+    .big-font {
+        font-size: 300%;
+    }
+}
+/* for mobile */
+@media screen and (max-width: 575px) {
     #name  {
       border-bottom: none;
       border-right: lightgray 2px solid;
     }
-    .big-font {
-        font-size: 300%;
-    }
     #icons {
         border-top: none;
         border-left: lightgray 2px solid;
-        font-size: 125%;
     }
 }
