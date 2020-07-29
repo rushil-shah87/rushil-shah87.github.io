@@ -6,6 +6,10 @@
 **********/
 
 /* general styles */
+#copyright {
+    color: white;
+}
+
 .standard {
     width: 90vw;
     margin-left: 5vw;
